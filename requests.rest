@@ -1,0 +1,37 @@
+### basicUserAuth endpoints
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Kyle",
+    "password": "passwordTest1"
+}
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "name": "Kyle",
+    "password": "passwordTest1"
+}
+
+
+
+### jwtAuth endpoints
+GET http://localhost:3001/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikt5bGUiLCJpYXQiOjE3MzA0MTc5MTJ9.RdRdCxCCDdRrB4DPrSYAn6m_1am4gv9uw3QntgBpKiM
+
+###
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username": "Kyle"
+}
