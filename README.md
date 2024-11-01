@@ -1,7 +1,7 @@
 # UserAuth-and-JWT-Demo
 Authentication and Authorization API with Node.js, Express, Bcrypt, and JWT
 
-This project demonstrates how to set up a simple API using Node.js and Express for user authentication and authorization using bcrypt for password hashing and JWT (JSON Web Tokens) for protecting routes.
+The purpose of this project is to demonstrate how to set up a simple API using Node.js and Express for user authentication and authorization using bcrypt for password hashing and JWT (JSON Web Tokens) for protecting routes.
 
 ## Setup Instructions
 
